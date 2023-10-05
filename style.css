@@ -59,8 +59,7 @@
         font-weight: 700!important;
     }
     .boutonviolet {
-        background-color: blueviolet;
-        color: white;
+        background-color: #980101;        color: white;
         width: 150px;
         height: 50px;
         border-radius: 20px;
@@ -88,12 +87,11 @@
 
     }
 
-
     .sepa {
         margin-top: 2%;
         height: 2px;
         width: 100%;
-        background-color: slateblue;
+        background-color: #000000;
         margin-bottom: 2%;
     }
 
@@ -112,4 +110,94 @@
         font-size: 40px!important;
         font-weight: bold!important;
     }
+
+    .div3 {
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .div3gauche {
+        width: 50%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .div3gauchehaut,
+    .div3gauchebas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .div3gauchehaut > div,
+    .div3gauchebas > div {
+        flex: 1;
+        padding: 5px;
+        background-color: rgba(160, 160, 160, 0.055);
+        max-width: calc(50% - 10px); /* Pour que chaque div occupe la moitié de l'espace avec 10px de marge */
+    }
+
+    .div3droite {
+        width: 30%;
+        padding: 2%;
+    }
+
+    .div4 {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+    }
+
+    .div4texte {
+        width: 30%;
+    }
+
+    .div4photodiv {
+        width: 30%;
+    }
+
+    .div5 {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row-reverse ;
+        justify-content: space-around; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+    }
+
+    .div5texte {
+        width: 30%;
+    }
+
+    .div5photodiv {
+        width: 30%;
+    }
+
+    .div6 {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+        text-align: center;
+    }
+
+    .accordion {
+       
+        margin-top: 5%;
+        width: 75%;
+        margin-bottom: 5%;
+    }
+
+    .accordion-item {
+        border: none!important;
+    }
+
     }
