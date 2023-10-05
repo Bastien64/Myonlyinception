@@ -1,0 +1,115 @@
+
+@media only screen and (min-width: 767px) {
+
+
+    body {
+        width: 100%;
+    }
+
+      a {
+        text-decoration: none!important;
+        color: white!important;
+      }
+      .custom-ml-auto {
+        margin-left: auto;
+        margin-right: 5%;
+    }
+      #nav-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+    
+      }
+      .nav-item {
+        margin-left: 50px!important;
+    }
+
+      .textnavbar {
+        font-family: 'Roboto', sans-serif !important;
+        height: 50px;
+        background-color: #ffffff;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+
+    .divduhaut {
+        margin: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .textduhaut{
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 5rem!important;
+        font-weight: 700!important;
+    }
+    .boutonviolet {
+        background-color: blueviolet;
+        color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+
+    }
+
+    .boutonnoir
+    {
+        background-color: rgb(0, 0, 0);
+        margin-left: 50px;
+        color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+
+    }
+
+
+    .sepa {
+        margin-top: 2%;
+        height: 2px;
+        width: 100%;
+        background-color: slateblue;
+        margin-bottom: 2%;
+    }
+
+    .div2 {
+        text-align: center;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 75%;
+    }
+
+    h4 {
+        font-size: 40px!important;
+        font-weight: bold!important;
+    }
+    }
