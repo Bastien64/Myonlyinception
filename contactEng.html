@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="icon" href="logo/logoBlancico.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>MyOnlyInception</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar  " id="nav-section" style="background-color:rgba(117, 0, 0, 0.8)!important ;">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#"><img src="logo/logoBlanc.png" alt="logo"
+                    style="max-width: 200px; max-height: auto; margin-left: 20px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border-color: rgb(0, 0, 0);  padding: 5px 10px;">
+                <span class="navbar-toggler-icon"  ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav custom-ml-auto"> <!-- Utilisation de custom-ml-auto -->
+                    <li class="nav-item" >
+                        <a class="nav-link  fw-bold" aria-current="page" href="indexEng.html"
+                            style="text-decoration: none !important; color: white; ">
+                            <div class="textnavbar" style="background-color:rgba(117, 0, 0, 0)!important ; color: white;">HOME</div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  fw-bold " href="indexEng.html"
+                            style="text-decoration: none !important; color: white;">
+                            <div class="textnavbar" style="background-color:rgba(117, 0, 0, 0)!important ; color: white;">ABOUT US</div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  fw-bold " href="indexEng.html"
+                            style="text-decoration: none !important; color: white;">
+                            <div class="textnavbar" style="background-color:rgba(117, 0, 0, 0)!important; color: white;">F.A.Qs</div>
+                        </a>
+                    </li>
+                    <li class="nav-item itemcontact">
+                        <a class="nav-link  fw-bold" style="text-decoration: none !important; color: white; ">
+                            <a href="contactEng.html">
+                                <div class="textnavbar" style="background-color:rgba(117, 0, 0, 0)!important ; color: white;">CONTACT</div>
+                            </a>
+                        </a>
+                    </li>
+                    <li class="nav-item itemcontact">
+                        <a class="nav-link  fw-bold" style="text-decoration: none !important; color: white; ">
+                           
+                                <div class="textnavbar" style="background-color:rgba(117, 0, 0, 0)!important ; color: white; font-size: 15px;"><a href="index.html">FR  </a>  <strong style="color: black; margin-left: 15px;">ENG</strong></div>
+                            
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="sectionform in-view">
+        <div class="formdiv">
+            <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
+                method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="Firt Name and Last Name" required="">
+                    <label for="email-address">E-mail adress</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                    <label for="telephone">Phone number</label>
+                    <input type="telephone" name="telephone" id="telephone" placeholder="00 00 00 00 00">
+                    <label for="lien">MyOnlyFan link </label>
+                    <input type="lien" name="lien" id="lien" placeholder="www.">
+                    <label for="complaint">Message</label>
+                    <textarea rows="6" name="complaint" id="complaint" placeholder="" required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact site internet">
+                </fieldset>
+                <input type="submit" value="SEND" class="boutonviolet" style="margin-top: 5%;">
+            </form>
+        </div>
+        <img src="photo/2.png" alt="une photo de femme" class="imagesection3">
+    </div>
+
+    <footer>
+        <div class="reseaux">
+            <h5 class="fw-bold">OUR SOCIAL MEDIA</h5>
+            <a href="https://www.instagram.com/myonlyinception_agency/" target="_blank" rel="noopener noreferrer"><img
+                    src="logo/instagram(2).png" alt="" class="logo" style="width: 25px;"></a>
+            <img src="logo/x.png" alt="" class="logo" style="width: 25px;">
+        </div>
+
+        <div class="contact" style="width: 15%;">
+
+            <a href="contact.html">
+                <h5 class="fw-bold">CONTACT</h5>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
