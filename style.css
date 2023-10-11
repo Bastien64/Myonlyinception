@@ -52,6 +52,7 @@
     .imageduhaut {
         width: 40%;
         margin-left: 10%;
+        border-radius: 20px;
     }
     h1 {
         font-size: 5rem!important;
@@ -86,6 +87,9 @@
 
     }
 
+    .boutonpremiertexte {
+        display: flex; flex-direction: row; 
+    }
     .sepa {
         margin-top: 2%;
         height: 2px;
@@ -98,17 +102,18 @@
         text-align: center;
         font-weight: bold;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         margin: auto;
         width: 100%;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
 
     }
     .div2fesse {
-        width: 100vw;
+        width: 33.33%;
         height: auto;
+        opacity: 0.5;
 
     }
     h4 {
@@ -167,6 +172,7 @@
 
     .div4photodiv {
         width: 30%;
+        border-radius: 20px;
     }
 
     .div5 {
@@ -182,7 +188,8 @@
     }
 
     .div5photodiv {
-        width: 30%;
+        width: 40%;
+        border-radius: 20px;
     }
 
     .div6 {
@@ -297,7 +304,8 @@
       text-align: center;
   }
  .imageduhaut {
-        width: 90%
+        width: 90%;
+        border-radius: 20px;
  }
   h1 {
 
@@ -320,7 +328,7 @@
   .boutonnoir
   {
       background-color: rgb(0, 0, 0);
-      margin-left: 50px;
+
       color: white;
       width: 150px;
       height: 50px;
@@ -329,10 +337,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 2%;
+      margin-top: 10%;
 
   }
-
+  .boutonpremiertexte {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+}
   .sepa {
       margin-top: 2%;
       height: 2px;
@@ -350,13 +364,14 @@
     justify-content: center;
     margin: auto;
     width: 100%;
-    background-color: black;
+
 
 }
 .div2fesse {
-    width: 100vw;
+    margin-top: 5%;
+    width: 90vw;
     height: auto;
-
+    border-radius: 20px;
 }
   h4 {
       font-size: 20px!important;
@@ -370,21 +385,22 @@
       align-items: center;
 
   }
-  .div3gauche {
-      width: 50%;
-      padding: 2%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
+  .div3droite {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
   .div3gauchehaut,
   .div3gauchebas {
-      display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 10px;
+
   }
 
   .div3gauchehaut > div,
@@ -394,14 +410,6 @@
       background-color: white!important;
   }
 
-  .div3droite {
-      width: 80%;
-      padding: 2%;
-      display: flex;
-      flex-direction: column;
-        align-items: center;
-      text-align: center;
-  }
 
   .div4 {
       margin-top: 5%;
@@ -413,10 +421,12 @@
   .div4texte {
       width: 80%;
       margin-top: 5%;
+      text-align: center;
   }
 
   .div4photodiv {
       width: 80%;
+      border-radius: 20px;
   }
 
   .div5 {
@@ -429,11 +439,13 @@
   .div5texte {
       width: 80%;
       margin-top: 5%;
+      text-align: center;
 
   }
 
   .div5photodiv {
       width: 80%;
+      border-radius: 20px;
   }
 
   .div6 {
