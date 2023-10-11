@@ -214,8 +214,7 @@
     /* footer */
     
     /* footer */
-    
-    footer {
+    .footer {
         padding: 2% 2% 2% 2%;
         display: flex;
         flex-direction: row;
@@ -247,6 +246,20 @@
     .infolegale p {
         font-size: small;
         margin-left: 2%;
+    }
+
+    .trait {
+        width: 2px;
+        height: 150px;
+        background-color: white;
+    }
+
+    .contact {
+        width: 15%; text-align: center;
+    }
+
+    .contact2 {
+        width: 15%;
     }
     }
     
@@ -474,10 +487,12 @@
   footer {
       padding: 2% 2% 2% 2%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       color: white;
       background-color: black;
-      justify-content: space-around;
+      justify-content: center;
+      text-align: center;
+      font-size: small;
   }
   
   .reseaux {
@@ -495,7 +510,7 @@
   .infolegale {
       width: 55%;
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       justify-content: center;
       text-align: center;
   }
@@ -504,4 +519,9 @@
       font-size: small;
       margin-left: 2%;
   }
+
+  ul {
+        list-style-type: none;
+  }
+
   }
